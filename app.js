@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Calculator API is running 🚀");
+  res.send("Calculator API is running");
 });
 
 app.get("/add", (req, res) => {
